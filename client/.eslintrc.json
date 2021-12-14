@@ -1,0 +1,35 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+      "arrow-parens": ["error", "as-needed"],
+      "no-underscore-dangle": 0,
+      "no-console": "off",
+      "radix": ["error", "as-needed"],
+      "no-use-before-define": ["error", { "functions": false, "classes": true, "variables": true }],
+      "comma-dangle": ["error", "never"],
+      "consistent-return": "off",
+      "func-names": ["error", "as-needed"],
+      "react/no-unstable-nested-components": ["error", { "allowAsProps": true }],
+      "react/function-component-definition": [2, { "namedComponents": "function-declaration" }],
+      "no-restricted-globals": ["off", "location"],
+      "react/jsx-boolean-value": ["error", "always", { "never": ["exact"] }],
+      "import/no-cycle": "off"
+    }
+}
