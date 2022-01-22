@@ -40,5 +40,5 @@
 <h2>Credits</h2>
 <ul>
   <li>You can visit <a href="https://argentinaprograma.com" target="_blank">r/Argentina Programa</a> to access the ongoing course for free.</li>
-  <li>An alternative and more limited version of this project can be found <a href="https://argentinaprograma.com" target="_blank">here</a>.</li>
+  <li>An alternative and more limited version of this project can be found <a href="https://github.com/bernardjp/premier-league-crud-ssr" target="_blank">here</a>.</li>
 </ul>
